@@ -170,7 +170,7 @@ Make sure to configure the data source settings in Power BI to connect to your S
 This project includes various visualizations to represent the sensor data effectively. Below are examples of the visualizations generated using different tools.
 
 ### Grafana Dashboard
-![Grafana Dashboard](@image/GrafanaScreenshot.png)
+![Grafana Dashboard](images/GrafanaScreenshot.png)
 
 The Grafana dashboard provides real-time insights into vehicle counts and average speeds. Key features include:
 - **Vehicle Count by Sensor ID**: Displays the vehicle count for each sensor over time.
@@ -179,13 +179,13 @@ The Grafana dashboard provides real-time insights into vehicle counts and averag
 - **Vehicle Count Over Time**: A line chart showing the total vehicle count aggregated by timestamp.
 
 ### Matplotlib Visualization
-![Matplotlib Visualization](@image/MatplotlibScreenshot.png)
+![Matplotlib Visualization](images/MatplotlibScreenshot.png)
 
 The Matplotlib script generates a line chart to visualize the total vehicle count over time. Key features include:
 - **Total Vehicle Count**: A line chart that aggregates vehicle counts by timestamp, providing a clear view of trends over time.
 
 ### Power BI Dashboard
-![Power BI Dashboard](@image/PowerBIScreenshot.png)
+![Power BI Dashboard](images/PowerBIScreenshot.png)
 
 The Power BI dashboard visualizes the sensor data collected from the Azure Storage Queue and stored in the SQL Server database. Key features include:
 - **Average Speed by Time**: A line chart showing the average speed of vehicles over time.
